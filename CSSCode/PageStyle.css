@@ -1,34 +1,39 @@
+body
+{
+  background-color: lightblue;
+}
+
 h1
 {
-  color: red;
-  font-size: 64px;
+  color: white;
+  font-size: 46px;
   line-height: 40px;
 }
 
 h2
 {
-  color: red;
-  font-size: 58px;
+  color: white;
+  font-size: 40px;
   line-height: 40px;
 }
 
 h3
 {
-  color: red;
-  font-size: 52px;
+  color: white;
+  font-size: 34px;
   line-height: 40px;
 }
 
 h4
 {
-  color: red;
-  font-size: 46px;
+  color: white;
+  font-size: 28px;
   line-height: 40px;
 }
 
 h5
 {
-  color: red;
-  font-size: 40px;
+  color: white;
+  font-size: 22px;
   line-height: 40px;
 }
