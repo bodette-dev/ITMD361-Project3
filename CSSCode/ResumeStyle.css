@@ -1,0 +1,56 @@
+/*import Oswald font*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/*formatting for body - background color*/
+body
+{
+  background-color: blue;
+}
+
+/*formatting for headings*/
+h1
+{
+  color: white;
+  font-size: 46px;
+  line-height: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2
+{
+  color: white;
+}
+
+h3
+{
+  color: white;
+}
+
+h4
+{
+  color: white;
+}
+
+h5
+{
+  color: white;
+}
+
+/*formatting for paragraphs*/
+p
+{
+  color: white;
+  font-size: 20px;
+}
+
+/*formatting for list components*/
+ul
+{
+  list-style: square;
+}
+
+li
+{
+  color: white;
+  font-size: 20px;
+}
