@@ -1,10 +1,13 @@
+/*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+/*formatting for body - background color*/
 body
 {
   background-color: blue;
 }
 
+/*formatting for headings*/
 h1
 {
   color: white;
@@ -45,12 +48,14 @@ h5
   font-family: 'Oswald', sans-serif;
 }
 
+/*formatting for paragraphs*/
 p
 {
   color: white;
   font-size: 20px;
 }
 
+/*formatting for list components*/
 ul
 {
   list-style: square;
