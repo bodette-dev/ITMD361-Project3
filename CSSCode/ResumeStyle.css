@@ -1,6 +1,21 @@
 /*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+.navigation
+{
+  text-align:center;
+}
+
+.navigation li
+{
+  display: inline;
+}
+
+.navigation a
+{
+  display: inline-block;
+}
+
 /*formatting for body - background color*/
 body
 {
