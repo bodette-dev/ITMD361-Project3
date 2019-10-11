@@ -1,7 +1,7 @@
 @font-face
 {
   font-family: 'customFont';
-  src: url(CSSStyles/sunday.tff);
+  src: url('sunday.tff');
 }
 
 body
