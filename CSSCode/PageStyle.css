@@ -1,17 +1,35 @@
 /*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+.navigation
+{
+  text-align:center;
+}
+
+.navigation li
+{
+  display: inline;
+}
+
+.navigation a
+{
+  display: inline-block;
+}
+
+a:link
+{
+  color: white;
+}
+
+a:visited
+{
+  color: yellow;
+}
+
 /*formatting for body - background color*/
 body
 {
   background-color: blue;
-}
-
-.image_resize1
-{
-	height: 500px;
-	width: 350px;
-	float: left;
 }
 
 /*formatting for headings*/
