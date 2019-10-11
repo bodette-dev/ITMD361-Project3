@@ -47,7 +47,10 @@ p
 ul
 {
   list-style: square;
-  background-color: yellow;
-  height: 117px;
-  margin-right 580px;
+}
+
+li
+{
+  color: white;
+  font-size: 20px;
 }
