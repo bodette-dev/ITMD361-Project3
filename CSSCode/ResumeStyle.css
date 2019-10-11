@@ -16,6 +16,16 @@
   display: inline-block;
 }
 
+a:link
+{
+  color: white;
+}
+
+a:visited
+{
+  color: yellow;
+}
+
 /*formatting for body - background color*/
 body
 {
