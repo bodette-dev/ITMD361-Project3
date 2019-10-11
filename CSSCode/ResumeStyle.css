@@ -7,14 +7,9 @@ body
   background-color: blue;
 }
 
-.reframe {
+img
+{
   height: 100px;
-  width: 150px;
-  overflow: hidden;
-}
-
-.reframe img {
-  height: auto;
   width: 150px;
 }
 
