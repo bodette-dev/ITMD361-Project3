@@ -1,3 +1,9 @@
+.wrapper
+{
+	width: initial;
+	margin: initial;
+}
+
 .navigation
 {
 	text-align:initial;
@@ -23,12 +29,13 @@ a:visited
 	color:black;
 }
 
-body,h1,h2,h3,h4,h5,p,ul,li 
+body,
 {
-	margin:0;
-	padding:0;
-	border:0;
-	font-size:100%;
-	font:inherit;
-	vertical-align:baseline;
+	background-color:initial;
+	
+}
+
+h1,h2,h3,h4,h5,p,ul,li 
+{
+	font-family:initial;
 }
