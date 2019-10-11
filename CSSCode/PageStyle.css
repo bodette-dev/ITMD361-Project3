@@ -1,8 +1,4 @@
-@font-face
-{
-  font-family: 'customFont';
-  src: url('sunday.tff');
-}
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 body
 {
@@ -14,6 +10,7 @@ h1
   color: white;
   font-size: 46px;
   line-height: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2
@@ -21,6 +18,7 @@ h2
   color: white;
   font-size: 40px;
   line-height: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 h3
@@ -28,6 +26,7 @@ h3
   color: white;
   font-size: 34px;
   line-height: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 h4
@@ -35,6 +34,7 @@ h4
   color: white;
   font-size: 28px;
   line-height: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 h5
@@ -42,13 +42,13 @@ h5
   color: white;
   font-size: 22px;
   line-height: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 p
 {
   color: white;
   font-size: 20px;
-  font-family: 'customFont';
 }
 
 ul
