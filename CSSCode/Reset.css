@@ -1,0 +1,34 @@
+.navigation
+{
+	text-align:initial;
+}
+
+.navigation li
+{
+	display:initial;
+}
+
+.navigation a
+{
+	display:initial;
+}
+
+a:link
+{
+	color:black;
+}
+
+a:visited
+{
+	color:black;
+}
+
+body,h1,h2,h3,h4,h5,p,ul,li 
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
