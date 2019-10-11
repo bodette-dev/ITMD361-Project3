@@ -7,6 +7,13 @@ body
   background-color: blue;
 }
 
+.image_resize1
+{
+	height: 500px;
+	width: 350px;
+	float: left;
+}
+
 /*formatting for headings*/
 h1
 {
