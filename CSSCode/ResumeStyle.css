@@ -7,11 +7,9 @@ body
   background-color: blue;
 }
 
-.image_resize1
-{
-	height: 500px;
-	width: 350px;
-	float: left;
+.reframe img{
+  height: 100px;
+  width: 150px;
 }
 
 /*formatting for headings*/
