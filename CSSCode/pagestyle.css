@@ -7,21 +7,6 @@
   margin: 0 auto;
 }
 
-/*.navigation
-{
-  text-align:center;
-}
-
-.navigation li
-{
-  display: inline;
-}
-
-.navigation a
-{
-  display: inline-block;
-}*/
-
 .navigation ul
 {
   text-align: center;
@@ -40,7 +25,7 @@ a:link
 
 a:visited
 {
-  color: yellow;
+  color: orange;
 }
 
 /*formatting for body - background color*/
