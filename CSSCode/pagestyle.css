@@ -26,13 +26,24 @@
   width: 20.83333%;
 }
 
-ul
+.navigation ul
 {
   text-align: center;
   list-style-type: none;
 }
 
-li
+.navigation li
+{
+  display: inline-block;
+}
+
+.navigation-fluid ul
+{
+  text-align: center;
+  list-style-type: none;
+}
+
+.navigation-fluid li
 {
   display: inline-block;
 }
