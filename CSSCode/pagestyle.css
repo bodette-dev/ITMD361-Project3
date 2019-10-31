@@ -20,12 +20,6 @@
   margin: auto;
 }
 
-.navigation-fluid
-{
-  background-color: green;
-  width: 20.83333%;
-}
-
 .navigation ul
 {
   text-align: center;
@@ -33,17 +27,6 @@
 }
 
 .navigation li
-{
-  display: inline-block;
-}
-
-.navigation-fluid ul
-{
-  text-align: center;
-  list-style-type: none;
-}
-
-.navigation-fluid li
 {
   display: inline-block;
 }
