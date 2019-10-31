@@ -1,6 +1,7 @@
 /*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+/*fixed and fluid layout specifications*/
 .wrapper
 {
   width: 960px; /*adjust*/
@@ -43,6 +44,8 @@
   width: 78.125%;
 }
 
+/*link properties*/
+
 .linked:link
 {
   color: white;
@@ -54,7 +57,7 @@
 }
 
 /*formatting for body - background color*/
-body
+.content
 {
   background-color: blue;
 }
