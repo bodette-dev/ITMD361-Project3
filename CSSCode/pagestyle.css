@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.navigation
+{
+  background-color: orange;
+}
+
 .navigation ul
 {
   text-align: center;
@@ -25,13 +30,13 @@ a:link
 
 a:visited
 {
-  color: orange;
+  color: black;
 }
 
 /*formatting for body - background color*/
 body
 {
-  background-color: green;
+  background-color: blue;
 }
 
 /*formatting for headings*/
