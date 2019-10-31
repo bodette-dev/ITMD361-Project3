@@ -4,7 +4,7 @@
 /*fixed and fluid layout specifications*/
 .wrapper
 {
-  width: 960px; /*adjust*/
+  width: 960px; 
   margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@
 
 .main
 {
-  width: 750px; ?8adjust*/
+  width: 750px;
 }
 
 .fluid
