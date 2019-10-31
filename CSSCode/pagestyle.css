@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.wrapper-fluid
+{
+  width: 100%;
+}
+
 .navigation
 {
   background-color: orange;
@@ -15,13 +20,19 @@
   margin: auto;
 }
 
-.navigation ul
+.navigation-fluid
+{
+  background-color: orange;
+  width: 20.83333%;
+}
+
+ul
 {
   text-align: center;
   list-style-type: none;
 }
 
-.navigation li
+li
 {
   display: inline-block;
 }
@@ -29,6 +40,11 @@
 .main
 {
   width: 750px; ?8adjust*/
+}
+
+.fluid
+{
+  width: 78.125%;
 }
 
 a:link
