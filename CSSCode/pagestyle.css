@@ -1,10 +1,24 @@
 /*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-.wrapper
+*
 {
-  width: 85%;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#fixed
+{
+  border: 1px solid black; /*1px solid #000*/
+  width: 950px;
+  margin: auto;
+}
+
+#heading
+{
+  border-bottom: 1px solid black; /*1px solid #000*/
+  padding: 10px;
 }
 
 .navigation
@@ -26,6 +40,18 @@
   display: inline-block;
 }
 
+#main
+{
+  margin-left: 200px;
+  border-left: 1px solid black; /*1px solid #000*/
+  padding: 10px;
+}
+
+.extend
+{
+  clear: both;
+}
+
 a:link
 {
   color: white;
@@ -39,7 +65,7 @@ a:visited
 /*formatting for body - background color*/
 body
 {
-  background-color: blue;
+  background-color: green;
 }
 
 /*formatting for headings*/
