@@ -43,6 +43,6 @@ function initMap() {
   
   workMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
-    worrkWindow.open(map, marker);
+    workWindow.open(map, marker);
   });
 }
