@@ -1,9 +1,12 @@
-var map;
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 41.742951, lng: -87.733638},
-    zoom: 13
-  });
+  
+  var mapOptions = {
+  zoom: 13,
+  center: {lat: 41.742951, lng: -87.733638},
+  mapTypeId: 'satellite'
+  };
+  var map = new google.maps.Map(document.getElementById('map'),
+    mapOptions);
   // The marker, positioned at Uluru
   var start = {lat: 41.742951, lng: -87.733638};
   var workStart = {lat: 41.724962, lng: -87.741513};
