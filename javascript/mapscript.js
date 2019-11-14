@@ -15,7 +15,7 @@ function initMap() {
   var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">Childhood Home</h1>'+
+      '<h3 id="firstHeading" class="firstHeading">Childhood Home</h3>'+
       '<div id="bodyContent">'+
       '<img class="mapPics" src ="media/house.png">'+
       '</div>'+
@@ -24,7 +24,7 @@ function initMap() {
   var workString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">First Job</h1>'+
+      '<h3 id="firstHeading" class="firstHeading">First Job</h3>'+
       '<div id="bodyContent">'+
       '<img class="mapPics" src ="media/work.png">'+
       '</div>'+
@@ -33,7 +33,7 @@ function initMap() {
   var schoolString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">First School</h1>'+
+      '<h3 id="firstHeading" class="firstHeading">First School</h3>'+
       '<div id="bodyContent">'+
       '<img class="mapPics" src ="media/work.png">'+
       '</div>'+
@@ -47,7 +47,7 @@ function initMap() {
     content: workString
   });
   
-  var schoolindow = new google.maps.InfoWindow({
+  var schoolWindow = new google.maps.InfoWindow({
     content: schoolString
   });
   
