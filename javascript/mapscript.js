@@ -35,7 +35,7 @@ function initMap() {
       '</div>'+
       '<h3 id="firstHeading" class="firstHeading">First School</h3>'+
       '<div id="bodyContent">'+
-      '<img class="mapPics" src ="media/work.png">'+
+      '<img class="mapPics" src ="media/school.png">'+
       '</div>'+
       '</div>';
   
@@ -52,21 +52,18 @@ function initMap() {
   });
   
   marker.addListener('click', function() {
-    map.setCenter(marker.getPosition());
     homeWindow.open(map, marker);
     workWindow.close();
     schoolWindow.close();
   });
   
   workMarker.addListener('click',function() {
-    map.setCenter(workMarker.getPosition());
     workWindow.open(map, workMarker);
     homeWindow.close();
     schoolWindow.close();
   });
   
   schoolMarker.addListener('click',function() {
-    map.setCenter(workMarker.getPosition());
     schoolWindow.open(map, schoolMarker);
     workWindow.close();
     homeWindow.Close();
