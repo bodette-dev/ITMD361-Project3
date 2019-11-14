@@ -60,14 +60,14 @@ function initMap() {
   
   workMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
-    workWindow.open(map, marker);
+    workWindow.open(map, WorkMarker);
     homeWindow.close();
     schoolWindow.close();
   });
   
   schoolMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
-    schoolWindow.open(map, marker);
+    schoolWindow.open(map, schoolMarker);
     workWindow.close();
     homeWindow.Close();
   });
