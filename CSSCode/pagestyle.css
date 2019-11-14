@@ -111,6 +111,15 @@ h5
   font-family: 'Alata', sans-serif;
 }
 
+.links
+{
+  color: white;
+  font-size: 22px;
+  line-height: 40px;
+  font-family: 'Alata', sans-serif;
+  align: center;
+}
+
 h6
 {
   color: white;
