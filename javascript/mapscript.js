@@ -14,6 +14,6 @@ function initMap() {
   
   marker.addListener('click', function() {
     map.setCenter(marker.getPosition());
-    infowindow.open(map, marker);
+    homeInformation.open(map, marker);
   });
 }
