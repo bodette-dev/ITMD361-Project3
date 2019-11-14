@@ -67,7 +67,7 @@
 /*formatting for body - background color*/
 .content
 {
-  background-color: #bc5a45;
+  background-color: lavender;
 }
 
 /*formatting for headings*/
@@ -142,14 +142,14 @@ li
   height: 80px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .content {
     background-color: lightgreen;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   .content {
-    background-color: lavender;
+    background-color: #bc5a45;
   }
 }
