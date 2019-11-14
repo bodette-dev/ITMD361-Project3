@@ -29,12 +29,12 @@ function initMap() {
       '</div>'+
       '</div>';
   
-  var infowindow = new google.maps.InfoWindow({
+  var homeWindow = new google.maps.InfoWindow({
     content: contentString
   });
   
   marker.addListener('click', function() {
     map.setCenter(marker.getPosition());
-    homeInformation.open(map, marker);
+    homeWindow.open(map, marker);
   });
 }
