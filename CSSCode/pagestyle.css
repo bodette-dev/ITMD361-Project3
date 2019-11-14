@@ -142,8 +142,14 @@ li
   height: 80px;
 }
 
-@media screen and (min-width: 800px) {
-  .content {
+@media screen and (min-width: 400px) {
+  body {
     background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
   }
 }
