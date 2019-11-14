@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 /*map options*/
-
 .map
 {
   height: 250px;
@@ -25,7 +24,7 @@
 
 .navigation
 {
-  background-color: orange;
+  background-color: green;
   width: 250px;
   height: 25px;
   margin: auto;
