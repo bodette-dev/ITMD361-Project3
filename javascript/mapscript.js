@@ -1,7 +1,7 @@
 function initMap() {
   
   var mapOptions = {
-  zoom: 13,
+  zoom: 14,
   center: {lat: 41.742951, lng: -87.733638},
   mapTypeId: 'satellite'
   };
