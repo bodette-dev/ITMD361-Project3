@@ -7,8 +7,10 @@ function initMap() {
   // The marker, positioned at Uluru
   var start = {lat: 41.742951, lng: -87.733638};
   var workStart = {lat: 41.724962, lng: -87.741513};
+  var schoolStart = {lat: 41.743090, lng: -87.732905};
   var marker = new google.maps.Marker({position: start, map: map});
   var workMarker = new google.maps.Marker({position: workStart, map: map});
+  var schoolStart = new google.maps.Marker({position: schoolStart, map: map});
   
   var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -28,12 +30,25 @@ function initMap() {
       '</div>'+
       '</div>';
   
+  var schoolString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">First School</h1>'+
+      '<div id="bodyContent">'+
+      '<img class="mapPics" src ="media/work.png">'+
+      '</div>'+
+      '</div>';
+  
   var homeWindow = new google.maps.InfoWindow({
     content: contentString
   });
   
   var workWindow = new google.maps.InfoWindow({
     content: workString
+  });
+  
+  var schoolindow = new google.maps.InfoWindow({
+    content: schoolString
   });
   
   marker.addListener('click', function() {
@@ -44,5 +59,10 @@ function initMap() {
   workMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
     workWindow.open(map, marker);
+  });
+  
+  schoolMarker.addListener('click',function() {
+    map.setCenter(workMarker.getPosition());
+    schoolWindow.open(map, marker);
   });
 }
