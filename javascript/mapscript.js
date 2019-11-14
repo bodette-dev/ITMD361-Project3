@@ -11,7 +11,7 @@ function initMap() {
   var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+      '<h1 id="firstHeading" class="firstHeading">Childhood Home</h1>'+
       '<div id="bodyContent">'+
       '<img class="mapPics" src ="/media/house.png">'+
       '</div>'+
