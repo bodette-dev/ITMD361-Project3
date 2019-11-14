@@ -10,7 +10,7 @@ function initMap() {
   var schoolStart = {lat: 41.743090, lng: -87.732905};
   var marker = new google.maps.Marker({position: start, map: map});
   var workMarker = new google.maps.Marker({position: workStart, map: map});
-  var schoolStart = new google.maps.Marker({position: schoolStart, map: map});
+  var schoolMarker = new google.maps.Marker({position: schoolStart, map: map});
   
   var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -60,7 +60,7 @@ function initMap() {
   
   workMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
-    workWindow.open(map, WorkMarker);
+    workWindow.open(map, workMarker);
     homeWindow.close();
     schoolWindow.close();
   });
