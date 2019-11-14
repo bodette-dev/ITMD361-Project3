@@ -87,6 +87,15 @@ h2
   font-family: 'Alata', sans-serif;
 }
 
+.maphead
+{
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+}
+
 h3
 {
   color: white;
@@ -133,6 +142,13 @@ p
 {
   color: white;
   font-size: 20px;
+}
+
+.mappar
+{
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 /*formatting for list components*/
