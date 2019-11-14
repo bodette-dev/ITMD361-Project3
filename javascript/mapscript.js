@@ -12,8 +12,8 @@ function initMap() {
     content: 'Childhood Home';
   });
   
-  marker.addListener('click', function() {
+  /*marker.addListener('click', function() {
     map.setCenter(marker.getPosition());
     homeInformation.open(map, marker);
-  });
+  });*/
 }
