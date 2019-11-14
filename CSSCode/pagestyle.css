@@ -1,13 +1,6 @@
 /*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-/*map options*/
-.map
-{
-  height: 250px;
-  width: 200px;
-}
-
 /*fixed and fluid layout specifications*/
 .wrapper
 {
