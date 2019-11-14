@@ -138,6 +138,11 @@ li
   font-size: 20px;
 }
 
+ul li p
+{
+  padding: 25px;
+}
+
 .media
 {
   display: inline;
