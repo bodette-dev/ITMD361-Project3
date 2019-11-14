@@ -141,3 +141,10 @@ li
   width: 80px;
   height: 80px;
 }
+
+@media screen and (min-width: 800px){
+  body
+  {
+    background-color: pink;
+  }
+}
