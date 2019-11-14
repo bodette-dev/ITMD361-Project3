@@ -25,7 +25,7 @@
 
 .navigation
 {
-  background-color: orange;
+  background-color: pink;
   width: 250px;
   height: 25px;
   margin: auto;
@@ -143,13 +143,13 @@ li
 }
 
 @media screen and (min-width: 400px) {
-  body {
+  .content {
     background-color: lightgreen;
   }
 }
 
 @media screen and (min-width: 800px) {
-  body {
+  .content {
     background-color: lavender;
   }
 }
