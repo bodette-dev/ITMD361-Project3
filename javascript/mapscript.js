@@ -66,6 +66,6 @@ function initMap() {
   schoolMarker.addListener('click',function() {
     schoolWindow.open(map, schoolMarker);
     workWindow.close();
-    homeWindow.Close();
+    homeWindow.close();
   });
 }
