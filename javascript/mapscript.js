@@ -13,7 +13,7 @@ function initMap() {
       '</div>'+
       '<h1 id="firstHeading" class="firstHeading">Childhood Home</h1>'+
       '<div id="bodyContent">'+
-      '<img class="mapPics" src ="/media/house.png">'+
+      '<img class="mapPics" src ="media/house.png">'+
       '</div>'+
       '</div>';
   
