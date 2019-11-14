@@ -54,15 +54,21 @@ function initMap() {
   marker.addListener('click', function() {
     map.setCenter(marker.getPosition());
     homeWindow.open(map, marker);
+    workWindow.close();
+    schoolWindow.close();
   });
   
   workMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
     workWindow.open(map, marker);
+    homeWindow.close();
+    schoolWindow.close();
   });
   
   schoolMarker.addListener('click',function() {
     map.setCenter(workMarker.getPosition());
     schoolWindow.open(map, marker);
+    workWindow.close();
+    homeWindow.Close();
   });
 }
