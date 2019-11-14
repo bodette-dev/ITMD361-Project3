@@ -25,7 +25,7 @@
 
 .navigation
 {
-  background-color: pink;
+  background-color: #f4e1d2;
   width: 250px;
   height: 25px;
   margin: auto;
@@ -67,13 +67,13 @@
 /*formatting for body - background color*/
 .content
 {
-  background-color: blue;
+  background-color: #f18973;
 }
 
 /*formatting for headings*/
 h1
 {
-  color: black;
+  color: white;
   font-size: 46px;
   line-height: 40px;
   font-family: 'Oswald', sans-serif;
@@ -81,7 +81,7 @@ h1
 
 h2
 {
-  color: black;
+  color: white;
   font-size: 40px;
   line-height: 40px;
   font-family: 'Oswald', sans-serif;
@@ -89,7 +89,7 @@ h2
 
 h3
 {
-  color: black;
+  color: white;
   font-size: 34px;
   line-height: 40px;
   font-family: 'Oswald', sans-serif;
@@ -97,7 +97,7 @@ h3
 
 h4
 {
-  color: black;
+  color: white;
   font-size: 28px;
   line-height: 40px;
   font-family: 'Oswald', sans-serif;
@@ -105,7 +105,7 @@ h4
 
 h5
 {
-  color: black;
+  color: white;
   font-size: 22px;
   line-height: 40px;
   font-family: 'Oswald', sans-serif;
@@ -115,7 +115,7 @@ h5
 /*formatting for paragraphs*/
 p
 {
-  color: black;
+  color: white;
   font-size: 20px;
 }
 
@@ -127,7 +127,7 @@ ul
 
 li
 {
-  color: black;
+  color: white;
   font-size: 20px;
 }
 
