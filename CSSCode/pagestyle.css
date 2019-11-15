@@ -1,12 +1,27 @@
 /*import Oswald font*/
 @import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
 
+/*map formatting*/
 #map 
 {
   height: 50%;
   width: 60%;
   margin: auto;
   align: center;
+}
+
+.maphtml
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mapcontent
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /*fixed and fluid layout specifications*/
