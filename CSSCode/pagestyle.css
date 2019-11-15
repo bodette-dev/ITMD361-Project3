@@ -89,7 +89,7 @@ h2
 
 .maphead
 {
-  color: white;
+  color: black;
   font-size: 40px;
   line-height: 40px;
   font-family: 'Alata', sans-serif;
@@ -147,7 +147,7 @@ p
 
 .mappar
 {
-  color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
   padding: 25px;
@@ -175,6 +175,8 @@ ul li p
   display: inline;
 }
 
+/*picture formatting*/
+
 .mapPics
 {
   width: 80px;
@@ -191,6 +193,36 @@ ul li p
 {
   height: 250px;
   width: 650px;
+}
+
+/*additional map page formatting*/
+.mapcontent 
+{
+  background-color: #587e76;
+}
+
+.mapnavigation
+{
+  background-color: #c1502e;
+  width: 250px;
+  height: 25px;
+  margin: auto;
+}
+
+.mapnavigation ul
+{
+  text-align: center;
+  list-style-type: none;
+}
+
+.mapnavigation li
+{
+  display: inline-block;
+}
+
+.map
+{
+  border: solid #686256 4px;
 }
 
 /*tablet design*/
@@ -222,9 +254,7 @@ ul li p
   
   .map
   {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #c1946a;
+    border: solid #c1946a 4px;
   }
   
   .mappar
