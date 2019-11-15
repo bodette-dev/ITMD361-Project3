@@ -204,6 +204,20 @@ ul li p
   .mapnavigation
   {
     background-color: #405d27;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+  }
+
+  .mapnavigation ul
+  {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .mapnavigation li
+  {
+    display: inline-block;
   }
   
   .map
