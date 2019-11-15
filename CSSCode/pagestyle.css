@@ -244,4 +244,40 @@ ul li p
   {
     background-color: #bc5a45;
   }
+  
+  .mapnavigation
+  {
+    background-color: #f18973;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+  }
+
+  .mapnavigation ul
+  {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .mapnavigation li
+  {
+    display: inline-block;
+  }
+  
+  .map
+  {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b2b2b2;
+  }
+  
+  .mappar
+  {
+    color: black;
+  }
+  
+  .maphead
+  {
+    color: black;
+  }
 }
