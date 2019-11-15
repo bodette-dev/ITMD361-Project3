@@ -193,14 +193,41 @@ ul li p
   width: 650px;
 }
 
-@media screen and (min-width: 700px) {
-  .content {
-    background-color: lightgreen;
+/*tablet design*/
+@media screen and (min-width: 700px) 
+{
+  .mapcontent 
+  {
+    background-color: #82b74b;
+  }
+  
+  .mapnavigation
+  {
+    background-color: #405d27;
+  }
+  
+  .map
+  {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c1946a;
+  }
+  
+  .mappar
+  {
+    color: #3e4444;
+  }
+  
+  .maphead
+  {
+    color: #3e4444;
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .content {
+@media screen and (min-width: 1200px) 
+{
+  .mapcontent 
+  {
     background-color: #bc5a45;
   }
 }
