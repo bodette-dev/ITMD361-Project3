@@ -220,11 +220,6 @@ ul li p
   display: inline-block;
 }
 
-.map
-{
-  border: solid #686256 4px;
-}
-
 /*tablet design*/
 @media screen and (min-width: 700px) 
 {
@@ -250,11 +245,6 @@ ul li p
   .mapnavigation li
   {
     display: inline-block;
-  }
-  
-  .map
-  {
-    border: solid #c1946a 4px;
   }
   
   .mappar
@@ -292,13 +282,6 @@ ul li p
   .mapnavigation li
   {
     display: inline-block;
-  }
-  
-  .map
-  {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #b2b2b2;
   }
   
   .mappar
