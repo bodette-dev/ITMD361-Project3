@@ -313,14 +313,14 @@ ul li p
 
 * {box-sizing:border-box}
 
-.slideshow-container {
+.slideshow {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
 /* Hide the images by default */
-.mySlides {
+.slides {
   display: none;
 }
 
