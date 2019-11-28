@@ -74,30 +74,3 @@ function initMap() {
     homeWindow.close();
   });
 }
-
-var index = 1;
-openSlides(index);
-setTimeout(openSlides,2000);
-
-// Next/previous controls
-function nextSlides(n) {
-  openSlides(index += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  openSlides(index = n);
-}
-
-function openSlides(n) {
-  var x;
-  var images = document.getElementsByClassName("slides");
-
-  if (n > images.length) {index = 1} 
-  if (n < 1) {index = images.length}
-  for (x = 0; x < images.length; ++x) {
-      images[x].style.display = "none"; 
-  }
-
-  images[index-1].style.display = "block"; 
-}
