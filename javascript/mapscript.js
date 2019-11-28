@@ -74,3 +74,39 @@ function initMap() {
     homeWindow.close();
   });
 }
+
+var slideNumber = 1;
+openSlides(slideNumber);
+
+function nextSlide(x)
+{
+  slideNumber += x;
+  openSlides(slideNumber);
+}
+
+function openSlides(x)
+{
+  var index;
+  var images = document.getElementsByClassName("slide");
+  
+  if (x>images.length)
+  {
+    index = 1;
+  }
+  
+  if (x<1)
+  {
+    index = images.length;
+  }
+  
+  for(a = 0;a<images.length;++a)
+  {
+    images[a].style.display = none;
+  }
+  
+  if(images.length > 0)
+  {
+    images[index-1].style.display = "start";
+  }
+}
+
