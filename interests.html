@@ -6,6 +6,15 @@
     <title>Blake's Favorite Media</title>
     <link rel="stylesheet" href="CSSCode/reset.css">
     <link rel="stylesheet" href="CSSCode/pagestyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script>
   </head>
 
   <body class="content">
@@ -73,28 +82,9 @@
         <h4>All Time Favorites:</h4>
         
         <!-- Slideshow -->
-        <div class="slideshow">
-
-          <!-- Full-width images with number and caption text -->
-          <div class="slides">
-            <img src="media/pynchon.jpg" style="width:100%">
-          </div>
-
-          <div class="slides">
-            <img src="media/strangelove.jpg" style="width:100%">
-          </div>
-
-          <div class="slides">
-            <img src="media/talktalk.jpg" style="width:100%">
-          </div>
-          
-          <div class="slides">
-            <img src="media/thief.jpg" style="width:100%">
-          </div>
-
-          <!-- Buttons -->
-          <a class="prev" onclick="nextSlides(-1)">&#10094;</a>
-          <a class="next" onclick="nextSlides(1)">&#10095;</a>
+        <div class="slider">
+          <div><img src="media/pynchon.jpg"/></div>
+          <div><img src="media/strangelove.jpg"/></div>
         </div>
       </section>
     </div>
