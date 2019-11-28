@@ -77,6 +77,7 @@ function initMap() {
 
 var index = 1;
 openSlides(index);
+setTimeout(openSlides,2000);
 
 // Next/previous controls
 function nextSlides(n) {
