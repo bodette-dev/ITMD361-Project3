@@ -80,8 +80,12 @@ openSlides(slideNumber);
 
 function nextSlide(x)
 {
-  slideNumber += x;
-  openSlides(slideNumber);
+  openSlides(slideNumber += x);
+}
+
+function currentSlide(x)
+{
+  openSlides(slideNumber = x);
 }
 
 function openSlides(x)
@@ -104,9 +108,6 @@ function openSlides(x)
     images[a].style.display = none;
   }
   
-  if(images.length > 0)
-  {
-    images[index-1].style.display = "start";
-  }
+  images[index-1].style.display = "block";
 }
 
