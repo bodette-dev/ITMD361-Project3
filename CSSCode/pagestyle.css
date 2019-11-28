@@ -308,6 +308,13 @@ ul li p
     color: black;
   }
   
+  .slideshow 
+  {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
   .next, .prev
   {
     cursor: pointer;
@@ -334,11 +341,5 @@ ul li p
   {
     background-color: rgba(0,0,0,0.8);
   }
-  
-  .slideshow-container 
-  {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
+ 
 }
