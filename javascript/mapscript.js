@@ -94,7 +94,7 @@ function openSlides(n) {
 
   if (n > images.length) {index = 1} 
   if (n < 1) {index = images.length}
-  for (x = 0; x < slides.length; ++x) {
+  for (x = 0; x < images.length; ++x) {
       images[x].style.display = "none"; 
   }
 
