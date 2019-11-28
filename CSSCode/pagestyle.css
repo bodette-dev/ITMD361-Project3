@@ -334,4 +334,11 @@ ul li p
   {
     background-color: rgba(0,0,0,0.8);
   }
+  
+  .slideshow-container 
+  {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
 }
